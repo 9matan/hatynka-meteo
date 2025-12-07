@@ -1,0 +1,29 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "d:\\Libs\\esp-idf\\sdk\\v5.5.1\\esp-idf",
+  "idf.pythonInstallPath": "d:\\Libs\\esp-idf\\tools\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/minimodule.cfg",
+    "target/esp32.cfg"
+  ],
+  "idf.portWin": "COM7",
+  "idf.toolsPathWin": "d:\\Libs\\esp-idf\\tools",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "clangd.path": "d:\\Libs\\esp-idf\\tools\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=d:\\Libs\\esp-idf\\tools\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+    "--compile-commands-dir=${workspaceFolder}\\build"
+  ],
+  "idf.flashType": "UART",
+  "files.associations": {
+    "wifi.h": "c",
+    "err.h": "c",
+    "sys.h": "c",
+    "event_groups.h": "c",
+    "esp_log.h": "c",
+    "nvs_flash.h": "c"
+  }
+}
